@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position:sticky;
+  }
+  
+  nav ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:  black;
+    font-weight: bold;
+  }
+  .banner{
+    margin-left: 250px;
+    text-align: left;
+    font-size: larger;
+    color: chocolate;
+    display: flex;
+  }
+  .banner h3{
+    color: black;
+    flex-direction: column;
+  }
+  .about-us{
+    margin-left: 250px;
+    text-align: left;
+    font-size: larger;
+    color: chocolate;
+    display: flex;
+  }
+  .about-us h1{
+    color: black;
+    flex-direction: column;
+  }
+  .about-us p{
+    color: black;
+    flex-direction: column;
+  }
+  .offers {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+
+.offer-card {
+    width: 100%;
+}
+.banner, .about-us, .offers {
+  flex-direction: row;
+}
+
+.offer-card {
+  width: 33%;
+}
+.offer-title{
+  color: chocolate;
+  text-align: center;
+}
+.offer img{
+  justify-content: space-between;
+}
+.ds{
+  width: 100px;
+  height: 100px;
+}
+.weeke{
+  color: chocolate;
+  text-align: center;
+}
+.jac{
+  width: 200px;
+  height: 200px; 
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.gim{
+  color: black;
+  text-align: left;
+  padding: 200px;
+}
+.gim h3{
+  color: chocolate;
+}
+.banner-texts button{
+  background-color: chocolate;
+} 
+.about-us-texts{
+  padding: 100px;
+}
+.za{
+  width: 400px;
+  height: 400px;
+}
+.offens{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
